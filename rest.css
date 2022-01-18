@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("resort-4471852.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 300vh;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 0px 30px;
+}
+.heading{
+    background-color: yellow;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 10vh;
+    padding: 10px 0px;
+    width: 17vw;
+    display: flex;
+    justify-content: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.kitchen{
+    display: flex;
+    background-image: url("kitchen.jpg");
+    width : 65vw;
+    height: 70vh;
+    margin: 5vh 0px 0px 4vw;
+}
+.para{
+    margin: 5vh 0px 0px 1vw;
+    display: flex;
+    width: 25vw;
+    height: 35vh;
+    background-color: yellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vh 0px 4vw;
+
+}
+
+.third{
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20vw;
+    height: 30vh;
+    background-color: white;
+    color: black;
+}
+.icon{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.headd{
+    display: flex;
+    justify-content: center;
+}
+.pcon{
+    display: flex;
+    text-align: center;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    width: 92vw;
+    height: 70vh;
+    margin: 3vh 0px 0px 4vw;
+    z-index: -1;
+}
+.aboutpic{
+    margin-top: 3vh;
+    width: 50vw;
+    height: 60vh;
+    background-image: url("tacos2.jpg");
+    background-size: cover;
+}
+.aboutcon{
+    padding: 10px;
+    margin:10vw 10vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.1rem;
+}
+.aboutpara{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.098rem;
+    margin: 6px;
+    background-color: #ffff80;
+}
+.aboutpara2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.098rem;
+    margin-top:18px;
+    background-color: #ffff80;
+}
+.abotb{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    padding: 10px;
+    margin:  10px 10vw;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.separate{
+    margin: 3vh 0px 0px 4vw;
+    width: 92vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #000208;
+    background-color: yellow;
+}
+.bottom{
+    margin: 3vh 0px 0px 4.8vw;
+    width: 92vw;
+    height: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
